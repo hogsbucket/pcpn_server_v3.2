@@ -1,0 +1,10 @@
+var serverStatus = "offline";
+var serverIpAdd = '192.168.1.85';
+var serverPort = '80';
+var dbLocation = 'C:/pcpn_db';
+var errorServer = '';
+var webpageLocation = 'D:/Tibud-Systems/AAATIBUDCARE_(FRONTEND)/pcpn_web_pages/build/web';
+var serverDart;
+var terminal_text = '';
+var conn;
+var masterlist = [];

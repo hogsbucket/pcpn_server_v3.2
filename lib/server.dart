@@ -300,12 +300,13 @@ Future<void> server() async {
   } catch(e) {
     errorServer = 'SERVER: Unabled to launch server: Running: http://$serverIpAdd:$serverPort';
     print(errorServer);
+    print(e);
   }
 }
 
 Future<void> mySqlConenction() async {
   conn = await MySQLConnection.createConnection(
-    host: "192.168.1.85", 
+    host: "172.17.254.40", 
     port: 3306, 
     userName: "Admin", 
     password: "admin",
